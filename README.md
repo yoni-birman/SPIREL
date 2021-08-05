@@ -1,11 +1,11 @@
-# ASPIRE
+# SPIREL
 
-**A**utomated **S**ecurity **P**olicy **I**mplementation using **RE**inforcement learning  
+**S**ecurity **P**olicy **I**mplementation using **RE**inforcement **L**earning 
 This code is provided as part of our work - generating a cost-effectivy security policy automatically, using reinforcement learning.
 
 ## Prerequisites
 
-The ASPIRE framework is built with Python 3.6, and mainly relies on [ChainerRL](https://github.com/chainer/chainerrl) reinforcement learning (RL) library, as well as [OpenAI Gym](https://github.com/openai/gym) for the RL environment.  
+The SPIREL framework is built with Python 3.6, and mainly relies on [ChainerRL](https://github.com/chainer/chainerrl) reinforcement learning (RL) library, as well as [OpenAI Gym](https://github.com/openai/gym) for the RL environment.  
 In the provided `requirement.txt` file, you can find the libraries that should be installed for our framework to work. This can be done using the following command:
 
 ```sh
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Setup
 
-Then, in the root directory (where we see the file `setup.py`), you should run the following command, which installs our ASPIRE environment:  
+Then, in the root directory (where we see the file `setup.py`), you should run the following command, which installs our SPIREL environment:  
 
 ```sh
 pip install -e .
